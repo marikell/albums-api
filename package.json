@@ -1,0 +1,28 @@
+{
+  "name": "albums-api",
+  "version": "1.0.0",
+  "description": "API to bring Albums data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marikell/albums-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marikell/albums-api/issues"
+  },
+  "homepage": "https://github.com/marikell/albums-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.35"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
